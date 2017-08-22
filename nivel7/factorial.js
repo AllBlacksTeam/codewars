@@ -12,3 +12,20 @@ function factorial(n) {
   if (n === 0) return 1;
   return n * factorial(n - 1);
 }
+
+
+// julio
+
+function factorial(num) {
+  if ((num < 0) || (num > 12)) {
+    return RangeError;
+  }
+  if(num ===0) {
+    return 1;
+  }
+  var output = num;
+  for(var i=num-1; i>0; i--) {
+    output = output * i;
+  }
+  return output;
+}
