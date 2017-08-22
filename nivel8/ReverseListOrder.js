@@ -7,3 +7,10 @@
 function reverseList(list) {
   return list.reverse();
 }
+
+
+// julio
+
+function reverseList(myArray) {
+  return myArray.reverse();
+}
