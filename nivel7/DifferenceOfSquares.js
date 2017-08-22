@@ -26,3 +26,26 @@ function differenceOfSquares(x) {
 }
 
 */
+
+// julio
+
+function cuadradoDeLaSuma(num) {
+  var total = 0;
+  for(var i=1; i<num+1; i++) {
+    total = total + i;
+  }
+  return (total * total);
+}
+
+function sumaDeLosCuadrados(num) {
+  var total = 0;
+  for(var i=1; i<num+1; i++) {
+    var cuadrado = i*i;
+    total = total + cuadrado;
+  }
+  return (total);
+}
+
+function differenceOfSquares(num) {
+  return (cuadradoDeLaSuma(num) - sumaDeLosCuadrados(num));
+}
