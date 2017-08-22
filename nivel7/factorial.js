@@ -10,5 +10,5 @@ function factorial(n) {
   for (i = 1; i <= n; i++) f = f * i;
 */
   if (n === 0) return 1;
-  return n * factorial(n - 1); // `factorial for ${n} is ${f}`;
+  return n * factorial(n - 1);
 }
