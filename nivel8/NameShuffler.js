@@ -1,3 +1,5 @@
+// http://www.codewars.com/kata/name-shuffler
+
 // david
 
 function nameShuffler(str) {

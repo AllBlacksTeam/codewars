@@ -1,3 +1,5 @@
+// http://www.codewars.com/kata/rock-paper-scissors
+
 // david
 
 const rps = (p1, p2) => {

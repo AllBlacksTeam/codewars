@@ -1,3 +1,5 @@
+// http://www.codewars.com/kata/repeatit/
+
 // david
 
 var repeatIt = function(str, n) {
