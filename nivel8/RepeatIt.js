@@ -6,3 +6,14 @@ var repeatIt = function(str, n) {
   }
   return str.repeat(n);
 };
+
+
+// julio
+
+function repeatIt(myString, num) {
+  if (typeof myString === 'string') {
+    return myString.repeat(num);
+  } else {
+    return 'Not a string';
+  }
+}
