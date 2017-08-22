@@ -20,3 +20,12 @@ function sum() {
   for (var i in arguments) total += arguments[i];
   return total;
 }
+
+/*
+SOLUCION INTERESANTE:
+
+function sum(...xs) {
+  return xs.reduce((x, y) => x + y);
+}
+
+*/
