@@ -17,3 +17,5 @@ describe("Solution", function(){
 });
 
 */
+
+// ***  endsWith()
