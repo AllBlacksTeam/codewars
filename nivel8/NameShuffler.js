@@ -4,3 +4,10 @@ function nameShuffler(str) {
   var strReverse = str.split(' ').reverse().join(' ');
   return strReverse;
 }
+
+
+// julio
+
+function nameShuffler(myName) {
+  return myName.split(' ').reverse().join(' ');
+}
