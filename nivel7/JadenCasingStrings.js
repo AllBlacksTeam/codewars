@@ -14,3 +14,16 @@ String.prototype.toJadenCase = function() {
 
   return jadenCase.join(' ');
 };
+
+
+//julio
+
+String.prototype.toJadenCase = function () {
+  var toArray = this.split(' ');
+  var output = [];
+  for(var i=0; i<toArray.length; i++) {
+    var cased = (toArray[i][0]).toUpperCase() + toArray[i].slice(1);
+    output.push(cased);
+  }
+  return output.join(' ');
+}
