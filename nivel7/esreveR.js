@@ -8,3 +8,14 @@ reverse = function(input) {
   }
   return esrever;
 };
+
+
+// julio
+
+function reverse(myArray) {
+  var output = [];
+  for (var i=myArray.length-1; i>-1 ; i--) {
+    output.push(myArray[i]);
+  }
+  return output;
+}
