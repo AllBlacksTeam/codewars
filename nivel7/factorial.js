@@ -18,7 +18,7 @@ function factorial(n) {
 
 function factorial(num) {
   if ((num < 0) || (num > 12)) {
-    return RangeError;
+    throw new RangeError('Parameter must be between 0 and 12');
   }
   if(num ===0) {
     return 1;

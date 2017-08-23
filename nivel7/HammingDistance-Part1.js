@@ -11,3 +11,19 @@ function hammingDistance(a, b) {
   }
   return dif;
 }
+
+// COMENTARIO: ojo, si defines las variables sin var son globales
+
+
+
+// julio
+
+function hammingDistance(string1, string2) {
+  var total = 0;
+  for (var i=0; i<string1.length; i++) {
+    if (string1[i] != string2[i]) {
+      total = total + 1;
+    }
+  }
+  return total;
+}
